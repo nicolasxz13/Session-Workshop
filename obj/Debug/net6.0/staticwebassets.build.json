@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "buXK6cIwDKvd5fuCN9Wf/i0l8GXE/B8fGKMJO5lOkh4=",
+  "Source": "Session Workshop",
+  "BasePath": "_content/Session Workshop",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Session Workshop\\wwwroot",
+      "Source": "Session Workshop",
+      "ContentRoot": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\Session Workshop\\wwwroot\\",
+      "BasePath": "_content/Session Workshop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\Session Workshop\\wwwroot\\css\\styles.css",
+      "SourceId": "Session Workshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nicol\\Desktop\\Bootcamp Coding Dojo c#\\ASP.NET Core\\Session Workshop\\wwwroot\\",
+      "BasePath": "_content/Session Workshop",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ]
+}

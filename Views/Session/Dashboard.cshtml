@@ -1,0 +1,29 @@
+<div class="nav">
+    <p>Welcome @Context.Session.GetString("user")!</p>
+    <form asp-action="Logout" asp-controller="Session" method="post">
+        <button type="submit" class="btn1">Logout</button>
+    </form>
+</div>
+<div class="containerdash">
+    <p>@Context.Session.GetInt32("table")</p>
+    <div class="blocks">
+        <form asp-action="Operation" asp-controller="Session" method="post">
+            <input type="hidden" name="operationid" value="1">
+            <button type="submit" class="btn1" id="add">+1</button>
+        </form>
+        <form asp-action="Operation" asp-controller="Session" method="post">
+            <input type="hidden" name="operationid" value="2">
+            <button type="submit" class="btn1" id="substract">-1</button>
+        </form>
+    </div>
+    <div class="blocks">
+        <form asp-action="Operation" asp-controller="Session" method="post">
+            <input type="hidden" name="operationid" value="3">
+            <button type="submit" class="btn1" id="multiply">x2</button>
+        </form>
+        <form asp-action="Operation" asp-controller="Session" method="post">
+            <input type="hidden" name="operationid" value="4">
+            <button type="submit" class="btn1" id="random">+Random</button>
+        </form>
+    </div>
+</div>
